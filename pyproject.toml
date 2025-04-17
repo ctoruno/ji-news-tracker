@@ -1,0 +1,18 @@
+[project]
+name = "ji-news-tracker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.11.9"
+dependencies = [
+    "gensim>=4.3.3",
+    "ipykernel>=6.29.5",
+    "openai>=1.74.0",
+    "pandas>=2.2.3",
+    "polars>=1.27.1",
+    "pyarrow>=19.0.1",
+    "pyldavis>=3.4.1",
+    "python-dotenv>=1.1.0",
+    "scikit-learn>=1.6.1",
+    "spacy>=3.8.5",
+]
