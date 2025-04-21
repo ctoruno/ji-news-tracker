@@ -9,6 +9,7 @@ dependencies = [
     "ipykernel>=6.29.5",
     "openai>=1.74.0",
     "pandas>=2.2.3",
+    "pip>=25.0.1",
     "polars>=1.27.1",
     "pyarrow>=19.0.1",
     "pyldavis>=3.4.1",
