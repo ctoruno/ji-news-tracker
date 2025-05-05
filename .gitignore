@@ -10,3 +10,4 @@ wheels/
 .venv
 .env
 .DS_Store
+data/master_data_p1.parquet.gzip

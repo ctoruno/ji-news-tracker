@@ -90,7 +90,7 @@ def process_data(df, excluded_articles, api_key):
 
     reduced_data = df[~df["id"].isin(excluded_articles)]
     data = reduced_data.copy()
-    data["token_count"] = data["summary"].apply(lambda x: len(x.split()))
+    data["token_count"] = data["summary"].apply(lambda x: len(x.split())+200)
     data["cum_token_count"] = data["token_count"].cumsum()
 
     batch = (
